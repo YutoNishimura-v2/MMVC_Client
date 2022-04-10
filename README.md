@@ -57,6 +57,7 @@ https://github.com/isletennos/MMVC_Trainer
 
 "output_device"には出力するオーディオデバイスを指定します。
 
+↑nishimura 環境では、defaultにすればokだった。一番最後の25番くらい
 
 ####  3.2. VCのコンフィグ
 「myprofile.json」の下記4項目を設定します。
@@ -76,6 +77,11 @@ https://github.com/isletennos/MMVC_Trainer
 になります。  
 "frame_length"は4096×nの値を入力してください。  
 "overlap"は1024以上の値を指定することを推奨します。  
+
+
+# frame_lengthは長いほうが精度がよくなる。8092はほしい。それ以上のほうがいい。
+# over_lapは文字通り。4000とかにすると重なって聞こえる。2048でもちょっと重なっている
+# 8092, 1024がちょうどいい。もう少しframe_lengthを増やすのもあり←コアダンプとかいうのが起きた。
 
 "source_id"には自分の声の話者IDを入力してください  
 "target_id"には変換先の声の話者IDを入力してください  

@@ -109,6 +109,9 @@ UserWarning: stft will soon require the return_complex parameter be given for re
 ```
 と表示されていれば、問題なく起動しています。  
 
+#### 注意:
+- 「パスをコピー」とすると、""をご丁寧に付けてくれるが、これがあるとエラーになるので消すこと
+- また、myprofile.jsonは、ANSIで保存しないとダメ。windowsなので。
 ## Q&A
 順次更新
 ## Note
